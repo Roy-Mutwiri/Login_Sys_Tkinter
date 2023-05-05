@@ -40,6 +40,9 @@ else:
 
 # Top Frames
 Label(root, text="Email:mutwiriroy63@gmail.com", width=10, height=3, bg="#f0687c", anchor='e').pack(side=TOP, fill=X)
+Label(root, text="STUDENT REGISTRATION", width=10, height=2, bg="#c36464", fg="white", font="arial 20 bold").pack(side=TOP, fill=X)
+
+
 
 
 root.mainloop()
