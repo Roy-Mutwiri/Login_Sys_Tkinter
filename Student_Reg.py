@@ -15,7 +15,7 @@ framefg = "#06283D"
 root = Tk()
 root.title("Student Registration System")
 root.geometry("1250x700+210+100")
-root.config(bg="red")
+root.config(bg=background)
 
 root.mainloop()
 
