@@ -9,8 +9,9 @@ import openpyxl, xlrd
 from openpyxl import Workbook
 import pathlib
 background = "#06283D"
-root = Tk()
+framebg = "#EDEDED"
 
+root = Tk()
 root.title("Student Registration System")
 root.geometry("1250x700+210+100")
 root.config()
