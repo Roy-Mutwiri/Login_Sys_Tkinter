@@ -45,7 +45,8 @@ Label(root, text="STUDENT REGISTRATION", width=10, height=2, bg="#c36464", fg="w
 # Search Box To Update
 Search = StringVar()
 Entry(root, textvariable=Search, width=15, bd=2, font="arial 20").place(x=820, y=70)
-
+imageicon3 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
+                             "/Images/search.png")
 
 
 root.mainloop()
