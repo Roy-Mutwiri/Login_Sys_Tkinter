@@ -36,6 +36,10 @@ else:
     sheet['K1'] = "Father's Occupation"
     sheet['L1'] = "Mother's Occupation"
 
+    file.save("Student_data.xlsx")
+
+
+
 root.mainloop()
 
 
