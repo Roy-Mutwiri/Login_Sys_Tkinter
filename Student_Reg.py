@@ -16,4 +16,3 @@ root.config()
 
 root.mainloop()
 
-# ---
