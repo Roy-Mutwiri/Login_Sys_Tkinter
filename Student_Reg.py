@@ -24,17 +24,17 @@ else:
     file = Workbook()
     sheet = file.active
     sheet['A1'] = "Registration No."
-    sheet['B1'] = ""
-    sheet['C1'] = ""
-    sheet['D1'] = ""
-    sheet['E1'] = ""
-    sheet['F1'] = ""
-    sheet['G1'] = ""
-    sheet['H1'] = ""
-    sheet['I1'] = ""
-    sheet['J1'] = ""
-    sheet['K1'] = ""
-    sheet['L1'] = ""
+    sheet['B1'] = "Name"
+    sheet['C1'] = "Class"
+    sheet['D1'] = "Gender"
+    sheet['E1'] = "DOB"
+    sheet['F1'] = "Date Of Registration"
+    sheet['G1'] = "Religion"
+    sheet['H1'] = "Skill"
+    sheet['I1'] = "Father Name"
+    sheet['J1'] = "Mother Name"
+    sheet['K1'] = "Father's Occupation"
+    sheet['L1'] = "Mother's Occupation"
 
 root.mainloop()
 
