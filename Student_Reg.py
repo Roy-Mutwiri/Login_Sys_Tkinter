@@ -71,6 +71,10 @@ reg_entry.place(x=160, y=150)
 
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
+date_entry = Entry(root, textvariable=Date, width=15, font="arial 10 bold", state="disabled", fg="black")
+date_entry.place(x=550, y=150)
+
+Date.set(d1)
 
 
 
