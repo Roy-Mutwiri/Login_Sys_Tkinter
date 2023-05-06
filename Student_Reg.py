@@ -55,7 +55,7 @@ Srch.place(x=1060, y=66)
 imageicon4 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
                              "/Images/Layer 4.png")
 Update_button = Button(root, image=imageicon4)
-
+Update_button.place(x=110, y=64)
 root.mainloop()
 
 # -------
