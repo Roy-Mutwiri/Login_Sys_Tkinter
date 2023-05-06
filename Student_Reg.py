@@ -39,7 +39,7 @@ else:
 
     file.save("Student_data.xlsx")
 
-def selections():
+def selection():
     value = radio.get()
     if value == 1:
         gender = "Male"
@@ -47,7 +47,6 @@ def selections():
     else:
         gender = "Female"
 
-        print("She is")
 
 
 
