@@ -40,6 +40,14 @@ else:
     file.save("Student_data.xlsx")
 
 def selections():
+    value = radio.get()
+    if value == 1:
+        gender = "Male"
+
+    else:
+        gender = "Female"
+
+        print("She is")
 
 
 
