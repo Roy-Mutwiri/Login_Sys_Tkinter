@@ -64,6 +64,10 @@ Label(root, text="Date: ", font="arial 13", fg=framebg, bg=background).place(x=5
 Registration = StringVar()
 Date = StringVar()
 
+reg_entry = Entry(root, textvariable=Registration, width=15, font="arial 10")
+reg_entry.place(x=160, y=150)
+
+
 
 
 
