@@ -39,6 +39,15 @@ else:
 
     file.save("Student_data.xlsx")
 
+def selections():
+
+
+
+
+
+
+
+
 # Top Frames
 Label(root, text="Email:mutwiriroy63@gmail.com", width=10, height=3, bg="#f0687c", anchor='e').pack(side=TOP, fill=X)
 Label(root, text="STUDENT REGISTRATION", width=10, height=2, bg="#c36464", fg="white", font="arial 20 bold").pack(
@@ -93,10 +102,10 @@ name_entry = Entry(obj, textvariable=Name, width=20, font="arial 10")
 name_entry.place(x=160, y=50)
 
 radio = IntVar()
-R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg)
+R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg, command=selection)
 R1.place(x=150, y=150)
 
-R2 = Radiobutton(obj, text="Female", variable=radio, value=2, bg=framebg, fg=framefg)
+R2 = Radiobutton(obj, text="Female", variable=radio, value=2, bg=framebg, fg=framefg, command=selection)
 R2.place(x=250, y=150)
 
 
