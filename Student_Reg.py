@@ -170,7 +170,7 @@ Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightb
 saveButton = Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightgreen")
 saveButton.place(x=1000, y=450)
 Button(root, text="Reset", width=19, height=2, font="arial 12 bold", bg="lightpink").place(x=1000, y=530)
-Button(root, text="Exit", width=19, height=2, font="arial 12 bold", bg="lightblue").place(x=1000, y=610)
+Button(root, text="Exit", width=19, height=2, font="arial 12 bold", bg="red").place(x=1000, y=610)
 
 root.mainloop()
 
