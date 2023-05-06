@@ -107,6 +107,14 @@ DOB = StringVar()
 dob_entry = Entry(obj, textvariable=DOB, width=20, font="arial 10")
 dob_entry.place(x=160, y=50)
 
+Religion = StringVar()
+religion_entry = Entry(obj, textvariable=Religion, width=20, font="arial 10")
+religion_entry.place(x=630, y=100)
+
+Skill = StringVar()
+skill_entry = Entry(obj, textvariable=DOB, width=20, font="arial 10")
+skill_entry.place(x=630, y=150)
+
 
 radio = IntVar()
 R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg, command=selection)
