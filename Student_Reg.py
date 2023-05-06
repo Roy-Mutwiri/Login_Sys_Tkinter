@@ -132,9 +132,14 @@ obj2 = LabelFrame(root, text="Parent's Details: ", font=20, bd=2, width=900, bg=
 obj2.place(x=30, y=470)
 
 Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
-Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
-Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
-Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
+Label(obj2, text="Occupation: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=100)
+
+Name = StringVar()
+name_entry = Entry(obj, textvariable=Name, width=20, font="arial 10")
+name_entry.place(x=160, y=100)
+
+
+
 
 root.mainloop()
 
