@@ -169,7 +169,7 @@ img = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-2023
 lbl = Label(f, bg="black", image=img)
 lbl.place(x=0, y=0)
 
-# Button
+# Buttons
 Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightblue").place(x=1000, y=370)
 saveButton = Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightgreen")
 saveButton.place(x=1000, y=450)
