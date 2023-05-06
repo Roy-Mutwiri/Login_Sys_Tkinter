@@ -59,6 +59,8 @@ Update_button.place(x=110, y=64)
 
 # Registration And Date
 Label(root, text="Registration No: ", font="arial 13", fg=framebg, bg=background).place(x=30, y=150)
+Label(root, text="Date: ", font="arial 13", fg=framebg, bg=background).place(x=500, y=150)
+
 
 
 
