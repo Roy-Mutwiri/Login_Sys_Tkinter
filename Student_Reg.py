@@ -40,6 +40,11 @@ else:
     file.save("Student_data.xlsx")
 
 
+# Exit Window
+def exit():
+    root.destroy()
+
+
 def selection():
     value = radio.get()
     if value == 1:
