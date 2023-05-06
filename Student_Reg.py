@@ -67,8 +67,10 @@ Date = StringVar()
 reg_entry = Entry(root, textvariable=Registration, width=15, font="arial 10")
 reg_entry.place(x=160, y=150)
 
+# registration_no()
 
-
+today = date.today()
+d1 = today.strftime("%d/%m/%Y")
 
 
 
