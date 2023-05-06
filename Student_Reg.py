@@ -58,7 +58,7 @@ Update_button = Button(root, image=imageicon4, bg="#c36464")
 Update_button.place(x=110, y=64)
 
 # Registration And Date
-Label(root, text="Registration No: ", font="arial 13", fg=framebg)
+Label(root, text="Registration No: ", font="arial 13", fg=framebg, bg=background).place(x=30, y=150)
 
 
 
