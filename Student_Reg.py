@@ -117,7 +117,7 @@ skill_entry.place(x=630, y=150)
 
 Class = Combobox(obj, values=["1", "2", "3", "4"], font="Roboto 10", width=17, state="r")
 Class.place(x=630, y=50)
-
+Class.set("Select Class")
 
 radio = IntVar()
 R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg, command=selection)
