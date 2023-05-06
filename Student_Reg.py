@@ -96,6 +96,11 @@ radio = IntVar()
 R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg)
 R1.place(x=150, y=150)
 
+R2 = Radiobutton(obj, text="Female", variable=radio, value=2, bg=framebg, fg=framefg)
+R2.place(x=250, y=150)
+
+
+
 
 
 
