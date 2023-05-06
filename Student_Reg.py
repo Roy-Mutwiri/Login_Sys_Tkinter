@@ -167,7 +167,8 @@ lbl.place(x=0, y=0)
 # button
 
 Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightblue").place(x=1000, y=370)
-Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightblue").place(x=1000, y=370)
+Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightblue")
+saveButton.place(x=1000, y=370)
 Button(root, text="Reset", width=19, height=2, font="arial 12 bold", bg="lightblue").place(x=1000, y=370)
 Button(root, text="Exit", width=19, height=2, font="arial 12 bold", bg="lightblue").place(x=1000, y=370)
 
