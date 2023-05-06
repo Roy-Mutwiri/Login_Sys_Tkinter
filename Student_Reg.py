@@ -80,6 +80,11 @@ Date.set(d1)
 obj = LabelFrame(root, text="Student's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=250, relief=GROOVE)
 obj.place(x=30, y=200)
 
+# Parent's Detail's
+obj = LabelFrame(root, text="Parent's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=220, relief=GROOVE)
+obj.place(x=30, y=470)
+
+
 
 
 
