@@ -92,6 +92,13 @@ Name = StringVar()
 name_entry = Entry(obj, textvariable=Name, width=20, font="arial 10")
 name_entry.place(x=160, y=50)
 
+radio = IntVar()
+R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg)
+R1.place(x=150, y=150)
+
+
+
+
 
 # Parent's Detail's
 obj = LabelFrame(root, text="Parent's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=220, relief=GROOVE)
