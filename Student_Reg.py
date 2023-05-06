@@ -127,9 +127,14 @@ R2 = Radiobutton(obj, text="Female", variable=radio, value=2, bg=framebg, fg=fra
 R2.place(x=250, y=150)
 
 # Parent's Detail's
-obj = LabelFrame(root, text="Parent's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=220,
+obj2 = LabelFrame(root, text="Parent's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=220,
                  relief=GROOVE)
-obj.place(x=30, y=470)
+obj2.place(x=30, y=470)
+
+Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
+Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
+Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
+Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
 
 root.mainloop()
 
