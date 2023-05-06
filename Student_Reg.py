@@ -115,6 +115,9 @@ Skill = StringVar()
 skill_entry = Entry(obj, textvariable=DOB, width=20, font="arial 10")
 skill_entry.place(x=630, y=150)
 
+Class = Combobox(obj, values=["1", "2", "3", "4"], font="Roboto 10", width=17, state="r")
+Class.place(x=630, y=50)
+
 
 radio = IntVar()
 R1 = Radiobutton(obj, text="Male", variable=radio, value=1, bg=framebg, fg=framefg, command=selection)
