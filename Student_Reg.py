@@ -76,6 +76,18 @@ date_entry.place(x=550, y=150)
 
 Date.set(d1)
 
+# Student Detail's
+obj = LabelFrame(root, text="Student's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=250, relief=GROOVE)
+
+
+
+
+
+
+
+
+
+
 root.mainloop()
 
 # -------
