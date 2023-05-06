@@ -56,6 +56,16 @@ imageicon4 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Imag
                              "/Images/Layer 4.png")
 Update_button = Button(root, image=imageicon4, bg="#c36464")
 Update_button.place(x=110, y=64)
+
+# Registration And Date
+Label(root, text="Registration No: ", font="arial 13", fg=framebg)
+
+
+
+
+
+
+
 root.mainloop()
 
 # -------
