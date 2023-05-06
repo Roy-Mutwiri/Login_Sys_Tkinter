@@ -76,11 +76,6 @@ date_entry.place(x=550, y=150)
 
 Date.set(d1)
 
-
-
-
-
-
 root.mainloop()
 
 # -------
