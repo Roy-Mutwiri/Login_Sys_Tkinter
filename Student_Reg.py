@@ -154,7 +154,16 @@ MO_entry = Entry(obj2, textvariable=Mother_Occupation, width=20, font="arial 10"
 MO_entry.place(x=630, y=100)
 
 
+# Images
 
+f = Frame(root, bd=3, bg="black", width=200, height=200, relief=GROOVE)
+f.place(x=1000, y=150)
+
+img = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
+                             "/Images/upload photo.png")
+
+lbl = Label(f, bg="black", image=img)
+lbl.place(x=0, y=0)
 
 
 
