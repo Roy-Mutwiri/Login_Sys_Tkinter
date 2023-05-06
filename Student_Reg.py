@@ -128,7 +128,7 @@ R2.place(x=250, y=150)
 
 # Parent's Detail's
 obj2 = LabelFrame(root, text="Parent's Details: ", font=20, bd=2, width=900, bg=framebg, fg=framefg, height=220,
-                 relief=GROOVE)
+                  relief=GROOVE)
 obj2.place(x=30, y=470)
 
 Label(obj2, text="Father's Name: ", font="arial 13", bg=framebg, fg=framefg).place(x=30, y=50)
@@ -153,22 +153,18 @@ Mother_Occupation = StringVar()
 MO_entry = Entry(obj2, textvariable=Mother_Occupation, width=20, font="arial 10")
 MO_entry.place(x=630, y=100)
 
-
 # Images
 
 f = Frame(root, bd=3, bg="black", width=200, height=200, relief=GROOVE)
 f.place(x=1000, y=150)
 
 img = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
-                             "/Images/upload photo.png")
+                      "/Images/upload photo.png")
 
 lbl = Label(f, bg="black", image=img)
 lbl.place(x=0, y=0)
 
 # button
-
-
-
 
 
 root.mainloop()
