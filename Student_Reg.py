@@ -159,7 +159,6 @@ MO_entry = Entry(obj2, textvariable=Mother_Occupation, width=20, font="arial 10"
 MO_entry.place(x=630, y=100)
 
 # Images
-
 f = Frame(root, bd=3, bg="black", width=200, height=200, relief=GROOVE)
 f.place(x=1000, y=150)
 
