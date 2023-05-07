@@ -102,6 +102,11 @@ def Clear():
     img = ""
 
 
+# ----------------
+def Save():
+
+
+
 
 
 
@@ -232,7 +237,7 @@ lbl.place(x=0, y=0)
 # Buttons
 Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightblue", command=showimage).place(x=1000,
                                                                                                                y=370)
-saveButton = Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightgreen")
+saveButton = Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightgreen", command=Save)
 saveButton.place(x=1000, y=450)
 Button(root, text="Reset", width=19, height=2, font="arial 12 bold", bg="lightpink", command=Clear).place(x=1000, y=530)
 Button(root, text="Exit", width=19, height=2, font="arial 12 bold", bg="red", command=exit).place(x=1000, y=610)
