@@ -153,6 +153,10 @@ def Save():
 
         messagebox.showinfo("Info","Sucessfully Data Entered")
 
+        Clear()
+
+        registration_no()
+
 
 
 
