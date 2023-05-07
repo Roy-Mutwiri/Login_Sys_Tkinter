@@ -143,6 +143,8 @@ def Save():
         sheet.cell(column=11, row=sheet.max_row, value=F1)
         sheet.cell(column=12, row=sheet.max_row, value=M1)
 
+        file.save(r"Student_data.xlsx")
+
 
 
 
