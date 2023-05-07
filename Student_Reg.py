@@ -146,12 +146,12 @@ def Save():
         file.save(r"Student_data.xlsx")
 
         try:
-            img.save("Student Images/" + str(R1) + ".jpg")
+            img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images" + str(R1) + ".jpg")
 
         except:
             messagebox.showinfo("Info", "Profile Picture Is Not Available!!")
 
-        messagebox.showinfo("Info","Sucessfully Data Entered")
+        messagebox.showinfo("Info", "Sucessfully Data Entered")
 
         Clear()
 
@@ -195,7 +195,7 @@ Label(root, text="Date: ", font="arial 13", fg=framebg, bg=background).place(x=5
 Registration = StringVar()
 Date = StringVar()
 
-reg_entry = Entry(root, textvariable=Registration, width=15, font="arial 10")
+reg_entry = Entry(root, textvariable=Registration, width=15, font="arial 10", state="disabled", fg="black")
 reg_entry.place(x=160, y=150)
 
 registration_no()
