@@ -178,7 +178,7 @@ religion_entry = Entry(obj, textvariable=Religion, width=20, font="arial 10")
 religion_entry.place(x=630, y=100)
 
 Skill = StringVar()
-skill_entry = Entry(obj, textvariable=DOB, width=20, font="arial 10")
+skill_entry = Entry(obj, textvariable=Skill, width=20, font="arial 10")
 skill_entry.place(x=630, y=150)
 
 Class = Combobox(obj, values=["1", "2", "3", "4"], font="Roboto 10", width=17, state="r")
