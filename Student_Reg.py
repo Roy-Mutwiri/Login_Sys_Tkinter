@@ -146,7 +146,7 @@ def Save():
         file.save(r"Student_data.xlsx")
 
         try:
-            img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images" + str(R1) + ".jpg")
+            img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/" + str(R1) + ".jpg")
 
         except:
             messagebox.showinfo("Info", "Profile Picture Is Not Available!!")
