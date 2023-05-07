@@ -49,7 +49,7 @@ def showimage():
     filename = filedialog.askopenfilename(initialdir=os.getcwd(),
                                           title="Select Image File", filetype=(("JPG File", "*.jpg"),
                                                                                ("PNG File", "*png"),
-                                                                               ("All files", "*.txt"))
+                                                                               ("All files", "*.txt")))
 
 
 def selection():
