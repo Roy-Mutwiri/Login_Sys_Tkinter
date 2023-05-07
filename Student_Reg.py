@@ -131,6 +131,7 @@ def Save():
         file = openpyxl.load_workbook("Student_data.xlsx")
         sheet = file.active
         sheet.cell(column=1, row=sheet.max_row+1, value=R1)
+        sheet.cell(column=2, row=sheet.max_row, value=N1)
 
 
 
