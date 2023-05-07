@@ -109,7 +109,7 @@ def Save():
     C1 = Class.get()
 
     try:
-        G1 = gender
+        G1=gender
 
     except:
         messagebox.showerror("error", "Select Gender")
@@ -123,7 +123,7 @@ def Save():
     F1 = Father_Occupation.get()
     M1 = Mother_Occupation.get()
 
-    if N=="" or C1=="Select Class" or D2=="" or Re1=="" or S1=="" or fathername=="" or mothername=="" or F1=="" or M1=="":
+    if N1=="" or C1=="Select Class" or D2=="" or Re1=="" or S1=="" or fathername=="" or mothername=="" or F1=="" or M1=="":
         messagebox.showerror("Error", "Few Data Is Missing")
 
     else:
