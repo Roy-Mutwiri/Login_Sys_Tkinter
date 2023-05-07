@@ -78,6 +78,14 @@ def registration_no():
 
 # --------------Clear--------------
 def Clear():
+    Name.set("")
+    DOB.set("")
+    Religion.set("")
+    Skill.set("")
+    F_Name.set("")
+    M_Name.set("")
+    Father_Occupation.set("")
+
 
 
 
@@ -209,7 +217,7 @@ Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightb
                                                                                                                y=370)
 saveButton = Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightgreen")
 saveButton.place(x=1000, y=450)
-Button(root, text="Reset", width=19, height=2, font="arial 12 bold", bg="lightpink").place(x=1000, y=530)
+Button(root, text="Reset", width=19, height=2, font="arial 12 bold", bg="lightpink", command=Clear).place(x=1000, y=530)
 Button(root, text="Exit", width=19, height=2, font="arial 12 bold", bg="red", command=exit).place(x=1000, y=610)
 
 root.mainloop()
