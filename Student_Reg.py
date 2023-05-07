@@ -66,6 +66,17 @@ def registration_no():
     row = sheet.max_row
 
 
+    max_row_value = sheet.cell(row=row, column=1).value
+
+    try:
+
+        Registration.set(max_row_value+1)
+
+    except:
+
+
+
+
 
 
 def selection():
