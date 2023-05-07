@@ -149,7 +149,7 @@ def Save():
             img.save("Student Images/" + str(R1) + ".jpg")
 
         except:
-            messagebox.showinfo("Info","Profile Picture Is Not Available!!")
+            messagebox.showinfo("Info", "Profile Picture Is Not Available!!")
 
 
 def selection():
