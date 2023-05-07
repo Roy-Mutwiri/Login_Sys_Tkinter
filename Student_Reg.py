@@ -53,7 +53,7 @@ def showimage():
     resized_image = img.resize((190, 190))
     photo2 = ImageTk.PhotoImage(resized_image)
     lbl.config(image=photo2)
-    lbl.image=photo2
+    lbl.image = photo2
 
 
 def selection():
