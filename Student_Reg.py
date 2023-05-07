@@ -132,16 +132,16 @@ def Save():
         sheet = file.active
         sheet.cell(column=1, row=sheet.max_row+1, value=R1)
         sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
-        sheet.cell(column=2, row=sheet.max_row, value=N1)
+        sheet.cell(column=3, row=sheet.max_row, value=N1)
+        sheet.cell(column=4, row=sheet.max_row, value=N1)
+        sheet.cell(column=5, row=sheet.max_row, value=N1)
+        sheet.cell(column=6, row=sheet.max_row, value=N1)
+        sheet.cell(column=7, row=sheet.max_row, value=N1)
+        sheet.cell(column=8, row=sheet.max_row, value=N1)
+        sheet.cell(column=9, row=sheet.max_row, value=N1)
+        sheet.cell(column=10, row=sheet.max_row, value=N1)
+        sheet.cell(column=11, row=sheet.max_row, value=N1)
+        sheet.cell(column=12, row=sheet.max_row, value=N1)
 
 
 
