@@ -46,8 +46,10 @@ def exit():
 
 
 def showimage():
-    filename = filedialog.askopenfilename(initialdir=os.getcwd(), title="Select Image File", filetype=(
+    filename = filedialog.askopenfilename(initialdir=os.getcwd(), title="Select Image File", filetypes=(
     ("JPG File", "*.jpg"), ("PNG File", "*png"), ("All files", "*.txt")))
+
+    img =
 
 
 def selection():
