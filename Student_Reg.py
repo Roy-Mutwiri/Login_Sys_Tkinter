@@ -44,8 +44,12 @@ else:
 def exit():
     root.destroy()
 
+
 def showimage():
-    filename = filedialog.askopenfilename()
+    filename = filedialog.askopenfilename(initialdir=os.getcwd(),
+                                          title="Select Image File", filetype=(("JPG File", "*.jpg"),
+                                                                               ("PNG File", "*png"),
+                                                                               ("All files", "*.txt"))
 
 
 def selection():
@@ -170,12 +174,11 @@ lbl = Label(f, bg="black", image=img)
 lbl.place(x=0, y=0)
 
 # Buttons
-Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightblue", command=showimage).place(x=1000, y=370)
+Button(root, text="Upload", width=19, height=2, font="arial 12 bold", bg="lightblue", command=showimage).place(x=1000,
+                                                                                                               y=370)
 saveButton = Button(root, text="Save", width=19, height=2, font="arial 12 bold", bg="lightgreen")
 saveButton.place(x=1000, y=450)
 Button(root, text="Reset", width=19, height=2, font="arial 12 bold", bg="lightpink").place(x=1000, y=530)
 Button(root, text="Exit", width=19, height=2, font="arial 12 bold", bg="red", command=exit).place(x=1000, y=610)
 
 root.mainloop()
-
-
