@@ -49,13 +49,14 @@ def showimage():
     global filename
     global img
     filename = filedialog.askopenfilename(initialdir=os.getcwd(), title="Select Image File", filetypes=(
-    ("JPG File", "*.jpg"), ("PNG File", "*png"), ("All files", "*.txt")))
+        ("JPG File", "*.jpg"), ("PNG File", "*png"), ("All files", "*.txt")))
 
     img = (Image.open(filename))
     resized_image = img.resize((190, 190))
     photo2 = ImageTk.PhotoImage(resized_image)
     lbl.config(image=photo2)
     lbl.image = photo2
+
 
 # ---------------Reg No
 
@@ -65,16 +66,16 @@ def registration_no():
     sheet = file.active
     row = sheet.max_row
 
-
     max_row_value = sheet.cell(row=row, column=1).value
 
     try:
 
-        Registration.set(max_row_value+1)
+        Registration.set(max_row_value + 1)
 
     except:
 
         Registration.set("1")
+
 
 # --------------Clear--------------
 def Clear():
@@ -89,15 +90,14 @@ def Clear():
     Mother_Occupation.set("")
     Class.set("Select Class")
 
-
     registration_no()
 
     saveButton.config(state="normal")
 
     img1 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
-                      "/Images/upload photo.png")
+                           "/Images/upload photo.png")
     lbl.config(image=img1)
-    lbl.image=img1
+    lbl.image = img1
 
     img = ""
 
@@ -112,13 +112,16 @@ def Save():
         G1 = gender
 
     except:
-        messagebox.showerror("error","Select Gender")
+        messagebox.showerror("error", "Select Gender")
 
-
-
-
-
-
+    D2 = DOB.get()
+    D1 = Date.get()
+    Re1 = Religion.get()
+    S1 = Skill.get()
+    fathername = F_Name.get()
+    mothername = M_Name.get()
+    F1 = Father_Occupation.get()
+    M1 = Mother_Occupation.get()
 
 
 def selection():
