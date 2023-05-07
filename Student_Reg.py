@@ -151,6 +151,10 @@ def Save():
         except:
             messagebox.showinfo("Info", "Profile Picture Is Not Available!!")
 
+        messagebox.showinfo("Info","Sucessfully Data Entered")
+
+
+
 
 def selection():
     global gender
