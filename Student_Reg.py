@@ -145,6 +145,12 @@ def Save():
 
         file.save(r"Student_data.xlsx")
 
+        try:
+            img.save("Student Images/" + str(R1) + ".jpg")
+
+        except:
+            messagebox
+
 
 def selection():
     global gender
