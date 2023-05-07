@@ -49,7 +49,7 @@ def showimage():
     global filename
     global img
     filename = filedialog.askopenfilename(initialdir=os.getcwd(), title="Select Image File", filetypes=(
-        ("JPG File", "*.jpg"), ("PNG File", "*png"), ("JPEG File", "*jpeg"), ("All files", "*.")))
+        ("JPG File", "*.jpg"), ("PNG File", "*png"), ("JPEG File", "*jpeg"), ("All files", "*")))
 
     img = (Image.open(filename))
     resized_image = img.resize((190, 190))
