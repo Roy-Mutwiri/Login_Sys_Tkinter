@@ -57,7 +57,12 @@ def showimage():
     lbl.config(image=photo2)
     lbl.image = photo2
 
+# ---------------Reg No
 
+
+def registration_no():
+    file = openpyxl.load_workbook("Student_data.xlsx")
+    sheet = file.active
 
 
 def selection():
@@ -97,7 +102,7 @@ Date = StringVar()
 reg_entry = Entry(root, textvariable=Registration, width=15, font="arial 10")
 reg_entry.place(x=160, y=150)
 
-# registration_no()
+registration_no()
 today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 date_entry = Entry(root, textvariable=Date, width=15, font="arial 10 bold", state="disabled", fg="black")
