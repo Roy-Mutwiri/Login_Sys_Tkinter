@@ -62,6 +62,7 @@ def showimage():
 
 
 def registration_no():
+
     file = openpyxl.load_workbook("Student_data.xlsx")
     sheet = file.active
     row = sheet.max_row
