@@ -85,6 +85,12 @@ def Clear():
     F_Name.set("")
     M_Name.set("")
     Father_Occupation.set("")
+    Mother_Occupation.set("")
+    Class.set("Select Class")
+
+
+    registration_no()
+
 
 
 
