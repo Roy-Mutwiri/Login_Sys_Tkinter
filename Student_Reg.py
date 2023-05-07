@@ -78,6 +78,7 @@ def registration_no():
 
 # --------------Clear--------------
 def Clear():
+    global image
     Name.set("")
     DOB.set("")
     Religion.set("")
@@ -96,6 +97,9 @@ def Clear():
     img1 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
                       "/Images/upload photo.png")
     lbl.config(image=img1)
+    lbl.image=img1
+
+    img = ""
 
 
 
