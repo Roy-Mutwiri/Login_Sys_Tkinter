@@ -91,6 +91,13 @@ def Clear():
 
     registration_no()
 
+    saveButton.config(state="normal")
+
+    img1 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
+                      "/Images/upload photo.png")
+    lbl.config(image=img1)
+
+
 
 
 
