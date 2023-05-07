@@ -74,6 +74,10 @@ def registration_no():
 
     except:
 
+        Registration.set("1")
+
+# --------------Clear--------------
+def Clear():
 
 
 
