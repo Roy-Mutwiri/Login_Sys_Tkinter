@@ -109,7 +109,7 @@ def Save():
     C1 = Class.get()
 
     try:
-        G1=gender
+        G1 = gender
 
     except:
         messagebox.showerror("error", "Select Gender")
@@ -123,14 +123,14 @@ def Save():
     F1 = Father_Occupation.get()
     M1 = Mother_Occupation.get()
 
-    if N1=="" or C1=="Select Class" or D2=="" or Re1=="" or S1=="" or fathername=="" or mothername=="" or F1=="" or M1=="":
+    if N1 == "" or C1 == "Select Class" or D2 == "" or Re1 == "" or S1 == "" or fathername == "" or mothername == "" or F1 == "" or M1 == "":
         messagebox.showerror("Error", "Few Data Is Missing")
 
     else:
 
         file = openpyxl.load_workbook("Student_data.xlsx")
         sheet = file.active
-        sheet.cell(column=1, row=sheet.max_row+1, value=R1)
+        sheet.cell(column=1, row=sheet.max_row + 1, value=R1)
         sheet.cell(column=2, row=sheet.max_row, value=N1)
         sheet.cell(column=3, row=sheet.max_row, value=C1)
         sheet.cell(column=4, row=sheet.max_row, value=G1)
@@ -144,8 +144,6 @@ def Save():
         sheet.cell(column=12, row=sheet.max_row, value=M1)
 
         file.save(r"Student_data.xlsx")
-
-
 
 
 def selection():
