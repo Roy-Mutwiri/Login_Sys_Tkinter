@@ -46,6 +46,8 @@ def exit():
 
 
 def showimage():
+    global filename
+    global img
     filename = filedialog.askopenfilename(initialdir=os.getcwd(), title="Select Image File", filetypes=(
     ("JPG File", "*.jpg"), ("PNG File", "*png"), ("All files", "*.txt")))
 
@@ -54,6 +56,8 @@ def showimage():
     photo2 = ImageTk.PhotoImage(resized_image)
     lbl.config(image=photo2)
     lbl.image = photo2
+
+
 
 
 def selection():
