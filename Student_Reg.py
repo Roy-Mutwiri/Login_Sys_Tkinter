@@ -158,8 +158,6 @@ def Save():
         registration_no()
 
 
-
-
 def selection():
     global gender
     value = radio.get()
