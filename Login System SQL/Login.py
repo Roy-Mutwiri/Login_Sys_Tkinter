@@ -65,11 +65,13 @@ code.place(x=500, y=410)
 
 button_mode = True
 
+def hide():
+    pas
 openeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/openeye.png")
 closeeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/close eye.png")
 
-eyeButton = Button(frame, image=openeye, bg="#375174", bd=0)
-
+eyeButton = Button(frame, image=openeye, bg="#375174", bd=0, command=hide)
+eyeButton.place(x=780, y=410)
 
 
 
