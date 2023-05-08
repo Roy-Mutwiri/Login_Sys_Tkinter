@@ -182,6 +182,8 @@ def search():
 
     # Reg NO showing------------
 
+    x1 = sheet.cell(row=int(reg_number),column=1).value
+
 
 
 
