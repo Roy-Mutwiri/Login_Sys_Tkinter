@@ -52,7 +52,7 @@ user.place(x=500, y=315)
 
 # Password Entry
 
-def user_enter():
+def password_enter():
     user.delete(0, "end")
 
 
