@@ -32,7 +32,11 @@ backgroundimage = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter.
 Label(frame, image=backgroundimage).pack()
 
 # User Entry
+def user_enter():
+    pass
 
+def user_leave():
+    pass
 
 user = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
 user.insert(0, "User ID")
