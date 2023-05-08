@@ -66,7 +66,9 @@ code.place(x=500, y=410)
 button_mode = True
 
 def hide():
-    pas
+    if button_mode:
+        eyeButton.config(image=closeeye,activebackground="white")
+        code.config
 openeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/openeye.png")
 closeeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/close eye.png")
 
