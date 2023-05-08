@@ -269,6 +269,8 @@ def Update():
     sheet.cell(column=11, row=int(reg_number), value=F1)
     sheet.cell(column=12, row=int(reg_number), value=M1)
 
+    file.save(r"Student_data.xlsx")
+
 
 
 
