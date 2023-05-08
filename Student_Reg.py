@@ -196,6 +196,20 @@ def search():
     x12 = sheet.cell(row=int(reg_number), column=12).value
 
 
+    Registration.set(x1)
+    Name.set(x2)
+    Class.set(x3)
+
+    if x4 == "Female":
+        R2.select()
+
+
+    else:
+        R1.select()
+
+
+
+
 
 
 
