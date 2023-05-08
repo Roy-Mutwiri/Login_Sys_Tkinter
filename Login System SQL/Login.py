@@ -32,7 +32,7 @@ backgroundimage = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter.
 Label(frame, image=backgroundimage).pack()
 
 # User Entry
-def user_enter():
+def user_enter(e):
     user.delete(0, "end")
 
 
@@ -56,7 +56,7 @@ def password_enter(e):
     code.delete(0, "end")
 
 
-def password_leave():
+def password_leave(e):
 
     if code.get() == "":
         code.insert(0, "Password")
