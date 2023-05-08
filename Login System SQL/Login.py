@@ -52,13 +52,13 @@ user.place(x=500, y=315)
 
 # Password Entry
 
-def password_enter():
-    user.delete(0, "end")
+def password_enter(e):
+    code.delete(0, "end")
 
 
-def user_leave():
-    name = user.get()
-    if name == "":
+def password_leave():
+
+    if code.get() == "":
         user.insert(0, "User ID")
 
 user = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
