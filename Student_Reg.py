@@ -164,6 +164,13 @@ def search():
     Clear()
     saveButton.config(state="disabled")
 
+    file = openpyxl.load_workbook("Student_data.xlsx")
+    sheet = file.active
+
+    for row in sheet.rows:
+        if row[0].value == int(text):
+            name = row[0]
+
 
 def selection():
     global gender
