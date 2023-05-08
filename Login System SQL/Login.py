@@ -24,6 +24,32 @@ image_icon = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Logi
 root.iconphoto(False, image_icon)
 
 
+# Background Image
+frame = Frame(root, bg='red')
+frame.pack(fill=Y)
+
+backgroundimage = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/LOGIN.png")
+Label(frame, image=backgroundimage).pack()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 root.mainloop()
 
