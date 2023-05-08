@@ -157,9 +157,10 @@ def Save():
 
         registration_no()
 
+
 # --------Search
 def search():
-    text =  Search.get()
+    text = Search.get()
 
     Clear()
     saveButton.config(state="disabled")
@@ -173,7 +174,6 @@ def search():
             reg_no_position = str(name)[14:-1]
             reg_number = str(name)[15:-1]
 
-
     try:
         print(str(name))
 
@@ -182,7 +182,7 @@ def search():
 
     # Reg NO showing------------
 
-    x1 = sheet.cell(row=int(reg_number),column=1).value
+    x1 = sheet.cell(row=int(reg_number), column=1).value
     x2 = sheet.cell(row=int(reg_number), column=2).value
     x3 = sheet.cell(row=int(reg_number), column=3).value
     x4 = sheet.cell(row=int(reg_number), column=4).value
@@ -195,9 +195,7 @@ def search():
     x11 = sheet.cell(row=int(reg_number), column=11).value
     x12 = sheet.cell(row=int(reg_number), column=12).value
 
-
     # -----Setting For Them To Show After Search
-
 
     Registration.set(x1)
     Name.set(x2)
@@ -210,7 +208,6 @@ def search():
     else:
         R1.select()
 
-
     DOB.set(x5)
     Date.set(x6)
     Religion.set(x7)
@@ -222,7 +219,7 @@ def search():
 
     # Image Appearance
 
-    img = (Image.open("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(x1)+".jpg"))
+    img = (Image.open("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/" + str(x1) + ".jpg"))
     resized_image = img.resize((190, 190))
     photo2 = ImageTk.PhotoImage(resized_image)
     lbl.config(image=photo2)
@@ -235,7 +232,7 @@ def Update():
     N1 = Name.get()
     C1 = Class.get()
     selection()
-    G1= gender
+    G1 = gender
 
     D2 = DOB.get()
     D1 = Date.get()
@@ -256,7 +253,7 @@ def Update():
             reg_no_position = str(name)[14:-1]
             reg_number = str(name)[15:-1]
 
-    #sheet.cell(column=1, row=int(reg_number), value=R1)
+    # sheet.cell(column=1, row=int(reg_number), value=R1)
     sheet.cell(column=2, row=int(reg_number), value=N1)
     sheet.cell(column=3, row=int(reg_number), value=C1)
     sheet.cell(column=4, row=int(reg_number), value=G1)
@@ -271,9 +268,8 @@ def Update():
 
     file.save(r"Student_data.xlsx")
 
-
     try:
-        img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(R1)+".jpg")
+        img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/" + str(R1) + ".jpg")
 
     except:
         pass
@@ -281,15 +277,6 @@ def Update():
     messagebox.showinfo("Update", "Update Sucessfully")
 
     Clear()
-
-
-
-
-
-
-
-
-
 
 
 def selection():
@@ -312,7 +299,8 @@ Search = StringVar()
 Entry(root, textvariable=Search, width=15, bd=2, font="arial 20").place(x=820, y=70)
 imageicon3 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
                              "/Images/search.png")
-Srch = Button(root, text="Search", compound=LEFT, image=imageicon3, width=123, bg='#68ddfa', font="arial 13 bold", command=search)
+Srch = Button(root, text="Search", compound=LEFT, image=imageicon3, width=123, bg='#68ddfa', font="arial 13 bold",
+              command=search)
 Srch.place(x=1060, y=66)
 
 imageicon4 = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Images-20230505T155526Z-001"
