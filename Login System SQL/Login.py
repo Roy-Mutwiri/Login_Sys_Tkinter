@@ -16,5 +16,14 @@ root.resizable(False, False)
 
 
 
+
+
+# Icon Image
+
+image_icon = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/icon.png")
+root.iconphoto(False, image_icon)
+
+
+
 root.mainloop()
 
