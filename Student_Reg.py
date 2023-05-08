@@ -273,7 +273,7 @@ def Update():
 
 
     try:
-        img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(x1)+".jpg")
+        img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(R1)+".jpg")
 
     except:
         pass
