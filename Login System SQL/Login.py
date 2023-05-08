@@ -61,8 +61,8 @@ def password_leave():
     if code.get() == "":
         code.insert(0, "Password")
 
-Code = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
-code.insert(0, "User ID")
+code = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
+code.insert(0, "Password")
 code.bind("<FocusIn>", password_enter)
 code.bind("<FocusOut>", password_leave)
 code.place(x=500, y=410)
