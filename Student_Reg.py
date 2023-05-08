@@ -257,17 +257,17 @@ def Update():
             reg_number = str(name)[15:-1]
 
     sheet.cell(column=1, row=int(reg_number), value=R1)
-    sheet.cell(column=2, row=int(reg_number), value=R1)
-    sheet.cell(column=3, row=int(reg_number), value=R1)
-    sheet.cell(column=4, row=int(reg_number), value=R1)
-    sheet.cell(column=5, row=int(reg_number), value=R1)
-    sheet.cell(column=6, row=int(reg_number), value=R1)
-    sheet.cell(column=7, row=int(reg_number), value=R1)
-    sheet.cell(column=8, row=int(reg_number), value=R1)
-    sheet.cell(column=9, row=int(reg_number), value=R1)
-    sheet.cell(column=10, row=int(reg_number), value=R1)
-    sheet.cell(column=11, row=int(reg_number), value=R1)
-    sheet.cell(column=12, row=int(reg_number), value=R1)
+    sheet.cell(column=2, row=int(reg_number), value=N1)
+    sheet.cell(column=3, row=int(reg_number), value=C1)
+    sheet.cell(column=4, row=int(reg_number), value=G1)
+    sheet.cell(column=5, row=int(reg_number), value=D2)
+    sheet.cell(column=6, row=int(reg_number), value=D1)
+    sheet.cell(column=7, row=int(reg_number), value=Re1)
+    sheet.cell(column=8, row=int(reg_number), value=S1)
+    sheet.cell(column=9, row=int(reg_number), value=fathername)
+    sheet.cell(column=10, row=int(reg_number), value=mothername)
+    sheet.cell(column=11, row=int(reg_number), value=F1)
+    sheet.cell(column=12, row=int(reg_number), value=M1)
 
 
 
