@@ -33,10 +33,13 @@ Label(frame, image=backgroundimage).pack()
 
 # User Entry
 def user_enter():
-    pass
+    user.delete(0, "end")
+
 
 def user_leave():
-    pass
+    name = user.get()
+    if name == "":
+        user.insert(0, "User ID")
 
 user = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
 user.insert(0, "User ID")
