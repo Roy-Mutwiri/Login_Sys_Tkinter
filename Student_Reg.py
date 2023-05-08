@@ -196,6 +196,9 @@ def search():
     x12 = sheet.cell(row=int(reg_number), column=12).value
 
 
+    # -----Setting For Them To Show After Search
+
+
     Registration.set(x1)
     Name.set(x2)
     Class.set(x3)
