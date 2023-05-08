@@ -171,6 +171,16 @@ def search():
         if row[0].value == int(text):
             name = row[0]
             reg_no_position = str(name)[14:-1]
+            reg_number = str(name)[15:-1]
+
+
+    try:
+        print(str(name))
+
+    except:
+        messagebox.showerror("Invalid","Invalid Registration Number")
+
+
 
 
 
