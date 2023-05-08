@@ -36,7 +36,7 @@ def user_enter():
     user.delete(0, "end")
 
 
-def user_leave():
+def user_leave(e):
     name = user.get()
     if name == "":
         user.insert(0, "User ID")
@@ -59,13 +59,13 @@ def password_enter(e):
 def password_leave():
 
     if code.get() == "":
-        user.insert(0, "User ID")
+        code.insert(0, "Password")
 
-user = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
-user.insert(0, "User ID")
-user.bind("<FocusIn>", user_enter)
-user.bind("<FocusOut>", user_leave)
-user.place(x=500, y=315)
+Code = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
+code.insert(0, "User ID")
+code.bind("<FocusIn>", password_enter)
+code.bind("<FocusOut>", password_leave)
+code.place(x=500, y=410)
 
 
 
