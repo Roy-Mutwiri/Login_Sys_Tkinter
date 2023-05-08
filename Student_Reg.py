@@ -231,6 +231,33 @@ def search():
 
 # ---------Update Button
 def Update():
+    R1 = Registration.get()
+    N1 = Name.get()
+    C1 = Class.get()
+    selection()
+    G1= gender
+
+    D2 = DOB.get()
+    D1 = Date.get()
+    Re1 = Religion.get()
+    S1 = Skill.get()
+    fathername = F_Name.get()
+    mothername = M_Name.get()
+    F1 = Father_Occupation.get()
+    M1 = Mother_Occupation.get()
+
+    file = openpyxl.load_workbook("Student_data.xlsx")
+    sheet = file.active
+
+    for row in sheet.rows:
+        if row[0].value == R1:
+            name = row[0]
+
+            reg_no_position = str(name)[14:-1]
+            reg_number = str(name)[15:-1]
+
+
+
 
 
 
