@@ -178,7 +178,13 @@ def search():
         print(str(name))
 
     except:
-        messagebox.showerror("Invalid","Invalid Registration Number")
+        messagebox.showerror("Invalid", "Invalid Registration Number!!")
+
+    # Reg NO showing------------
+
+
+
+
 
 
 
