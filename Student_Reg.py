@@ -223,7 +223,10 @@ def search():
     # Image Appearance
 
     img = (Image.open("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(x1)+".jpg"))
-
+    resized_image = img.resize((190, 190))
+    photo2 = ImageTk.PhotoImage(resized_image)
+    lbl.config(image=photo2)
+    lbl.image = photo2
 
 
 
