@@ -183,17 +183,17 @@ def search():
     # Reg NO showing------------
 
     x1 = sheet.cell(row=int(reg_number),column=1).value
-    x2 = sheet.cell(row=int(reg_number), column=1).value
-    x3 = sheet.cell(row=int(reg_number), column=1).value
-    x4 = sheet.cell(row=int(reg_number), column=1).value
-    x5 = sheet.cell(row=int(reg_number), column=1).value
-    x6 = sheet.cell(row=int(reg_number), column=1).value
-    x7 = sheet.cell(row=int(reg_number), column=1).value
-    x8 = sheet.cell(row=int(reg_number), column=1).value
-    x9 = sheet.cell(row=int(reg_number), column=1).value
-    x10 = sheet.cell(row=int(reg_number), column=1).value
-    x11= sheet.cell(row=int(reg_number), column=1).value
-    x12= sheet.cell(row=int(reg_number), column=1).value
+    x2 = sheet.cell(row=int(reg_number), column=2).value
+    x3 = sheet.cell(row=int(reg_number), column=3).value
+    x4 = sheet.cell(row=int(reg_number), column=4).value
+    x5 = sheet.cell(row=int(reg_number), column=5).value
+    x6 = sheet.cell(row=int(reg_number), column=6).value
+    x7 = sheet.cell(row=int(reg_number), column=7).value
+    x8 = sheet.cell(row=int(reg_number), column=8).value
+    x9 = sheet.cell(row=int(reg_number), column=9).value
+    x10 = sheet.cell(row=int(reg_number), column=10).value
+    x11 = sheet.cell(row=int(reg_number), column=11).value
+    x12 = sheet.cell(row=int(reg_number), column=12).value
 
 
 
