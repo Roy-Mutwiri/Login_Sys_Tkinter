@@ -33,8 +33,11 @@ Label(frame, image=backgroundimage).pack()
 
 # User Entry
 
+
 user = Entry(frame, width=18, fg="white", border=0, bg="#375174", font=("Arial Bold", 24))
 user.insert(0, "User ID")
+user.bind("<FocusIn>", user_enter)
+user.bind("<FocusOut>", user_leave)
 user.place(x=500, y=315)
 
 
