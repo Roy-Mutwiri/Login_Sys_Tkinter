@@ -272,6 +272,17 @@ def Update():
     file.save(r"Student_data.xlsx")
 
 
+    try:
+        img.save("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(x1)+".jpg")
+
+    except:
+        pass
+
+    messagebox.showinfo("Update","Update Sucessfully")
+
+    Clear()
+
+
 
 
 
