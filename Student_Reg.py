@@ -220,6 +220,10 @@ def search():
     Father_Occupation.set(x11)
     Mother_Occupation.set(x12)
 
+    # Image Appearance
+
+    img = (Image.open("/home/anon/PycharmProjects/Login_Sys_Tkinter./Students Images/"+str(x1)+".jpg"))
+
 
 
 
