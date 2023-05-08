@@ -161,6 +161,9 @@ def Save():
 def search():
     text =  Search.get()
 
+    Clear()
+    saveButton.config(state="disabled")
+
 
 def selection():
     global gender
