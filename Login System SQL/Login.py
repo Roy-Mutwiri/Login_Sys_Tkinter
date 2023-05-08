@@ -68,6 +68,8 @@ button_mode = True
 openeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/openeye.png")
 closeeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/close eye.png")
 
+eyeButton = Button(frame)
+
 
 
 
