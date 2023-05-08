@@ -60,4 +60,27 @@ code.bind("<FocusIn>", password_enter)
 code.bind("<FocusOut>", password_leave)
 code.place(x=500, y=410)
 
+
+#  Hide And Show Button
+
+button_mode = True
+
+openeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/openeye.png")
+closeeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/close eye.png")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 root.mainloop()
