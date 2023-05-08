@@ -14,3 +14,7 @@ root.geometry("1250x700+210+100")
 root. config(bg=background)
 root.resizable(False, False)
 
+
+
+root.mainloop()
+
