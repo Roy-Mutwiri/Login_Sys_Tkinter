@@ -208,6 +208,15 @@ def search():
         R1.select()
 
 
+    DOB.set(x5)
+    Date.set(x6)
+    Religion.set(x7)
+    Skill.set(x8)
+    F_Name.set(x9)
+    M_Name.set(x10)
+    Father_Occupation.set(x11)
+    Mother_Occupation.set(x12)
+
 
 
 
