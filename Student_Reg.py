@@ -256,7 +256,7 @@ def Update():
             reg_no_position = str(name)[14:-1]
             reg_number = str(name)[15:-1]
 
-    sheet.cell(column=1, row=int(reg_number), value=R1)
+    #sheet.cell(column=1, row=int(reg_number), value=R1)
     sheet.cell(column=2, row=int(reg_number), value=N1)
     sheet.cell(column=3, row=int(reg_number), value=C1)
     sheet.cell(column=4, row=int(reg_number), value=G1)
@@ -278,7 +278,7 @@ def Update():
     except:
         pass
 
-    messagebox.showinfo("Update","Update Sucessfully")
+    messagebox.showinfo("Update", "Update Sucessfully")
 
     Clear()
 
