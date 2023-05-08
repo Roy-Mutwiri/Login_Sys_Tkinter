@@ -256,6 +256,19 @@ def Update():
             reg_no_position = str(name)[14:-1]
             reg_number = str(name)[15:-1]
 
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+    sheet.cell(column=1, row=int(reg_number), value=R1)
+
 
 
 
