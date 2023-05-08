@@ -60,13 +60,12 @@ code.bind("<FocusIn>", password_enter)
 code.bind("<FocusOut>", password_leave)
 code.place(x=500, y=410)
 
-
 #  Hide And Show Button
 
 button_mode = True
 
-def hide():
 
+def hide():
     global button_mode
     if button_mode:
         eyeButton.config(image=closeeye, activebackground="white")
@@ -77,24 +76,12 @@ def hide():
         eyeButton.config(image=openeye, activebackground="white")
         code.config(show="")
         button_mode = True
+
+
 openeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/openeye.png")
 closeeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login System SQL/Images/close eye.png")
 
 eyeButton = Button(frame, image=openeye, bg="#375174", bd=0, command=hide)
 eyeButton.place(x=780, y=410)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 root.mainloop()
