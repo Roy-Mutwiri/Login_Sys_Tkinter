@@ -88,6 +88,6 @@ eyeButton.place(x=780, y=410)
 loginButton = Button(root, text="LOGIN", bg="#1f5675", fg="white", width=10, height=1, font=("arial", 16, "bold"), bd=0)
 loginButton.place(x=570, y=600)
 
-label = Label(root, text="Don't have an account?")
+label = Label(root, text="Don't have an account?", fg="white", bg="#00264d", font=("Microsft YaHei UI Light", 9))
 
 root.mainloop()
