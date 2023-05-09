@@ -85,7 +85,8 @@ eyeButton = Button(frame, image=openeye, bg="#375174", bd=0, command=hide)
 eyeButton.place(x=780, y=410)
 
 # -----------------
-loginButton = Button(root, text="LOGIN")
+loginButton = Button(root, text="LOGIN", bg="#1f5675", width=10, height=1, font=("arial", 16))
 loginButton.place(x=570, y=600)
+
 
 root.mainloop()
