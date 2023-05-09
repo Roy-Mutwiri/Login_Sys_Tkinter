@@ -84,4 +84,6 @@ closeeye = PhotoImage(file="/home/anon/PycharmProjects/Login_Sys_Tkinter./Login 
 eyeButton = Button(frame, image=openeye, bg="#375174", bd=0, command=hide)
 eyeButton.place(x=780, y=410)
 
+# -----------------
+
 root.mainloop()
